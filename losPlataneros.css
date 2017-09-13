@@ -1,3 +1,4 @@
+
 p{
 	color: rgba(25, 0, 90, 1);
 }
@@ -6,6 +7,15 @@ body{
 	background-color: rgba(0,0,0, .3);
 }
 
-body{
-	background: url(https://i.imgur.com/Nbi7bYI.jp); 
+img{
+	margin: auto;
+	display: block;
 }
+
+h2{
+	text-align: center;
+}
+
+/*body{
+	background: url(https://media.discordapp.net/attachments/223975026548801537/357279023128117252/fondo.jpeg?width=400&height=149); 
+}*/
