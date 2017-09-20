@@ -20,6 +20,16 @@ h1{
 	text-align: center;
 }
 
+img [name="Logo"]{
+	width:	"50%"; 
+	height:	"auto";
+}
+
+.picture{
+	float: left;
+	width: "50%";
+	margin-right: 5px;
+}
 /*body{
 	background: url(https://media.discordapp.net/attachments/223975026548801537/357279023128117252/fondo.jpeg?width=400&height=149); 
 }*/
