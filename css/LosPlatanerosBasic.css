@@ -81,7 +81,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.dropdown-content a.active{background-color:#6699ff; color: white;}
 /* Box view */
 * {
     box-sizing: border-box;
