@@ -1,18 +1,69 @@
 <html>
-	<head>
-		<title>Los Plataneros</title>
-		<link rel="stylesheet" type="text/css" href="losPlataneros.css">
-		<link rel= "icon" href="images/Los Plataneros.png"/>
+<head>
+	<title>StringBuilder</title>
+	<link rel="stylesheet" type="text/css" href="LosPlataneros_WelcomePage_v2.css">
+	<link rel= "icon" href="images/Los Plataneros.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="JAVA, Los Plataneros">
+	<meta name="author" content="Samuel E. Matos">
+</head>
+<body onscroll="myFunction()">
+	<div class="header">
+	<img class="logo" alt="Los Plataneros Logo" src="images/LosPlataneros Final_V2.png">
+	</div>
+<!-- Nav Section -->
+<div id="navbar">
+	<ul>
+	  <li><a href="LosPlataneros_WelcomePage_v2.html">Home</a></li>
+	  <li><a href="#news">About</a></li>
+	  <li class="dropdown">
+	    <a href="javascript:void(0)" class="dropbtn">Java</a>
+	    <div class="dropdown-content">
+	      <a href="#">StringBuilder</a>
+	      <a href="#">TreeSet</a>
+	      <a href="#">HashMap</a>
+	    </div>
+	  </li>
+	  <li style="align=right"><a href="LogIn.html">Sign In</a></li>
+	</ul>
+</div>
+	<div class="free"></div>
+	<div class="main">
+		<h1 class="title">StringBuilder</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<br><br><a href="String vs StringBuilder.txt">Download Java Tester</a><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+	</div>
+<div class="free"></div>
+	<!-- Footer -->
+	<div class="footer">
+	
+			<center>
+			<table>
+				<tr>
+					<td><a href="https://www.facebook.com/LosPlatanerosesc/"><img class="footerImgs facebook" src="images/facebookh.png" title="Follow on Facebook"></a></td>
+					<td><a href="https://twitter.com/LosPlataneros_"><img class="footerImgs twitter" src="images/twitterh.png" title="Follow on Twitter"></a></td>
+				</tr>
+			</table>
+			</center>
+			<p style="color:white;">Copyright &copy Los Plataneros</p>
+	</div>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
 
-	</head>
-	<body>
-		<img src="images/Los Plataneros.png" width="50%" heigth="auto">
-		<h1>Los Plataneros</h1>
-		<hr>
-		<h1><center>UNDER CONSTRUCTION</center></h1>
-		<hr>
-		<h2>Contact us</h2>
-		<div class="picture"><a href="https://www.facebook.com/LosPlatanerosesc/"><img src="images/facebook.png" width="50" height="50"></a></div>
-		<div class="picture"><a href="https://twitter.com/LosPlataneros_"><img src="images/twitter.png" width="50" height="50"></a></div>
-	</body>
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
 </html>
