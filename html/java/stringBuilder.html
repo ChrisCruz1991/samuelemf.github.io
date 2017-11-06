@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>StringBuilder</title>
+	<link rel="stylesheet" type="text/css" href="../../css/LosPlatanerosBasic.css">
+	<link rel= "icon" href="../../images/Los Plataneros.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="JAVA, Los Plataneros">
+	<meta name="author" content="Samuel E. Matos">
+</head>
+<body onscroll="myFunction()">
+	<div class="header">
+	<a href="../../index.html" title="Los Plataneros"><img class="logo" alt="Los Plataneros Logo" src="../../images/LosPlataneros Final_V2.png"></a>
+	</div>
+<!-- Nav Section -->
+<div id="navbar">
+	<ul>
+	  <li><a href="../../index.html">Home</a></li>
+	  <li class="dropdown">
+	    <a href="javascript:void(0)" class="dropbtn">Java</a>
+	    <div class="dropdown-content">
+	      <a href="stringBuilder.html" class="active">StringBuilder</a>
+	      <a href="treeSet.html">TreeSet</a>
+	      <a href="hashMap.html">HashMap</a>
+	    </div>
+	  </li>
+	  <li style="align=right"><a href="singIn.html">Sign In</a></li>
+	</ul>
+</div>
+	<div class="free"></div>
+	<div class="main">
+		<h1 class="subject">StringBuilder</h1>
+		<p>For competitive programming and every Java program, the StringBuilder class is very useful.<blockquote><i>"The principal operations on a StringBuilder are the append and insert methods, which are overloaded so as to accept data of any type. Each effectively converts a given datum to a string and then appends or inserts the characters of that string to the string builder. The append method always adds these characters at the end of the builder; the insert method adds the characters at a specified point."</i></blockquote> If you wish to read more of the StringBuilder class, click <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html">here</a><br><br>Usually, begginers programmers will use the normal concatenation to add more characters to a string as shown here <code>string += "characters";</code> This way of concatenation works just fine, but it takes a lot of time to add those characters.n</p>
+		<br><p><a href="../../resources/stringbuilder/StringBuilderTestTime.java" download>Download Java Tester</a> | View the code <a href="../../resources/stringbuilder/String vs StringBuilder.txt">here</a></p>
+	</div>
+<div class="free"></div>
+	<!-- Footer -->
+	<div class="footer">
+			<a href="https://www.facebook.com/LosPlatanerosesc/"><img class="footerImgs facebook" src="../../images/facebookh.png" title="Follow on Facebook" alt="Facebook Logo"></a>
+			<a href="https://twitter.com/LosPlataneros_"><img class="footerImgs twitter" src="../../images/twitterh.png" title="Follow on Twitter" alt="Twitter Logo"></a>
+			<p style="color:white;">Copyright &copy Los Plataneros</p>	
+	</div>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>

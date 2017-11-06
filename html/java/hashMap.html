@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>HashMap</title>
+	<link rel="stylesheet" type="text/css" href="../../css/LosPlatanerosBasic.css">
+	<link rel= "icon" href="../../images/Los Plataneros.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="JAVA, Los Plataneros">
+	<meta name="author" content="Samuel E. Matos">
+</head>
+<body onscroll="myFunction()">
+	<div class="header">
+	<a href="../../index.html" title="Los Plataneros"><img class="logo" alt="Los Plataneros Logo" src="../../images/LosPlataneros Final_V2.png"></a>
+	</div>
+<!-- Nav Section -->
+<div id="navbar">
+	<ul>
+	  <li><a href="../../index.html">Home</a></li>
+	  <li class="dropdown">
+	    <a href="javascript:void(0)" class="dropbtn">Java</a>
+	    <div class="dropdown-content">
+	      <a href="stringBuilder.html" >StringBuilder</a>
+	      <a href="treeSet.html">TreeSet</a>
+	      <a href="hashMap.html" class="active">HashMap</a>
+	    </div>
+	  </li>
+	  <li style="align=right"><a href="singIn.html">Sign In</a></li>
+	</ul>
+</div>
+	<div class="free"></div>
+	<div class="main">
+		<h1 class="subject">HashMap</h1>
+		<p>Currently under construction</p>
+		<p>If you wish to read more of the StringBuilder class, click <a href="https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html">here</a></p>
+		<!-- p><a href="resources/stringbuilder/StringBuilderTestTime.java" download>Download Java Tester</a> | View the code <a href="resources/stringbuilder/String vs StringBuilder.txt">here</a></p -->
+	</div>
+<div class="free"></div>
+	<!-- Footer -->
+	<div class="footer">
+			<a href="https://www.facebook.com/LosPlatanerosesc/"><img class="footerImgs facebook" src="../../images/facebookh.png" title="Follow on Facebook" alt="Facebook Logo"></a>
+			<a href="https://twitter.com/LosPlataneros_"><img class="footerImgs twitter" src="../../images/twitterh.png" title="Follow on Twitter" alt="Twitter Logo"></a>
+			<p style="color:white;">Copyright &copy Los Plataneros</p>	
+	</div>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
